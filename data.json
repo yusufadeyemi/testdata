@@ -1,0 +1,64 @@
+{
+    “id”: “73700307-b911-8312-35ec-89221d4872c9",
+    “time”: “2021-02-15T10:55:26.125Z”,
+    “originator”: {
+        “institution”: {
+            “id”: “6329470",
+            “name”: “HomeChoice”
+        },
+        “terminalId”: “00000003",
+        “merchant”: {
+            “merchantType”: “0000”,
+            “merchantId”: “006008800617163”,
+            “merchantName”: {
+                “name”: “ElectrumTest”,
+                “city”: “Cape Town”,
+                “region”: “WC”,
+                “country”: “ZA”
+            }
+        }
+    },
+    “client”: {
+        “id”: “6329470”,
+        “name”: “HomeChoice”
+    },
+    “thirdPartyIdentifiers”: [
+        {
+            “institutionId”: “6329470",
+            “transactionIdentifier”: “102838gadbcc”
+        },
+        {
+            “institutionId”: “63294451",
+            “transactionIdentifier”: “102812gadddf”
+        }
+    ],
+    “amounts”: {
+        “requestAmount”: {
+            “amount”: 10000,
+            “currency”: “710”
+        }
+    },
+    “product”: {
+        “productId”: “AIRTIME”,
+        “type”: “AIRTIME_VARIABLE”
+    },
+    “tenders”: [
+        {
+            “accountType”: “DEFAULT”,
+            “amount”: {
+                “amount”: 10000,
+                “currency”: “710”
+            },
+            “reference”: “2af406e5fa55487c8a737b87688b8419”,
+            “tenderType”: “OTHER”
+        }
+    ],
+    “recipientMsisdn”: {
+        “msisdn”: “27789544803",
+        “country”: “ZA”,
+        “operator”: {
+            “id”: “6329442”,
+            “name”: “MTN”
+        }
+    }
+}
